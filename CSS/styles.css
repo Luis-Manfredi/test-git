@@ -122,6 +122,11 @@ ion-icon {
     width: 20px;
 }
 
+iframe {
+    width: 340px;
+    height: 150px;
+}
+
 @media screen and (max-width: 900px) {
 
     ::-webkit-scrollbar {
@@ -151,15 +156,22 @@ ion-icon {
     }
 
     .box_container {
+        width: 290px;
+        height: 440px;
         margin: 20px auto;
         margin-top: 40px;
     }
     
     .box_small {
+        width: 290px;
         margin: 20px auto;
     }
 
     #sizedBox {
         display: none;
+    }
+
+    iframe {
+        width: 290px;
     }
 }
